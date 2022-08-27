@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.textColor {
+  color: #fff;
+  height: calc(100vh - 60px);
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand-style {
+  color: #fff !important;
+  font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.block1 {
+  background-color: #fff9e9;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.block2 {
+  background-color: #aec8a1;
+}
+table {
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+table tr td {
+  /* padding: 25px 12px !important; */
+  color: #000;
+}
+table tr {
+  line-height: 50px;
+}
+table tr td:hover {
+  background-color: #cccccc;
+}
+.row {
+  height: 90%;
+}
+#tableDiv {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.selectedBlock {
+  position: relative;
+  background-color: #cccccc;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selectedBlock span {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+}
+.possiblePositionBlock {
+  background-color: #bb4559;
+}
+.fa-github {
+  margin-left: 20px;
+}
+.selected-fa {
+  position: absolute;
+  top: 30px;
 }
